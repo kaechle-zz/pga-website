@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="23px" viewBox="0 0 34 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Forums" transform="translate(-1152.000000, -56.000000)" fill="#F92525">
+            <g id="Group-4" transform="translate(1152.000000, 56.000000)">
+                <polygon id="Shape" points="34 18.42185 34 4.2228 26.3964667 10.6014667"></polygon>
+                <polygon id="Shape" points="17.0287111 14.7269 34 0.490283333 34 2.66453526e-15 0 2.66453526e-15 0 0.43815"></polygon>
+                <polygon id="Shape" points="7.66813333 10.6014667 0 4.16836667 0 18.4854833"></polygon>
+                <path d="M24.2049778,12.43955 L17.9327333,17.6992667 C17.6709333,17.9162333 17.3498222,18.02855 17.0287111,18.02855 C16.7113778,18.02855 16.3906444,17.9162333 16.1284667,17.6992667 L9.86151111,12.43955 L0,22.5768 L0,23 L34,23 L34,22.5131667 L24.2049778,12.43955 L24.2049778,12.43955 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
