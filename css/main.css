@@ -31,6 +31,11 @@ h2 {
 	justify-content: center;
 }
 
+.navbar li a:hover {
+	background-color: transparent;
+	color: #D82924;
+}
+
 .active {
 	color: #D82924;
 }
@@ -92,7 +97,25 @@ h2 {
 
 .mail-count {
 	padding-right: 10px;
+	cursor: pointer;
 }
+
+.mail:hover {
+	color: #D82924;
+}
+
+.mail-icon {
+	cursor: pointer;
+}
+
+.user {
+	cursor: pointer;
+}
+
+.user:hover {
+	color: #D82924;
+}
+
 .avatar {
 	padding-right: 10px;
 }
@@ -116,6 +139,11 @@ h2 {
 	font-size: 20px;
 	margin-top: 96px;
 	line-height: 2.3;
+}
+
+.btn-new-discussion:hover {
+	color: #D82924;
+	border-color: #D82924;
 }
 
 .post-preview {
