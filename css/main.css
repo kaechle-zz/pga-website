@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Brandon Grotesque Bold';
-	src: url('fonts/brandon-grotesque-bold.woff');
+	src: url('../fonts/brandon-grotesque-bold.woff');
 }
 
 @font-face {
 	font-family: 'Brandon Grotesque Light';
-	src: url('fonts/brandon-grotesque-light.woff');
+	src: url('../fonts/brandon-grotesque-light.woff');
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 h2 {
-	font-family: 'Brandon Grotesque Bold';
+	font-family: 'Brandon Grotesque Bold', sans-serif;
 	letter-spacing: 2.1px;
 	font-size: 42px;
 	padding: 0px 0 20px 0;
@@ -86,12 +86,14 @@ a:hover {
 }
 
 .header-element {
-	top: 40%;
+	top: 45%;
 	display: flex;
 }
 
 .btn-close {
 	padding-left: 10px;
+	position: absolute;
+	top: 7px;
 }
 
 .user-control {
@@ -127,6 +129,7 @@ a:hover {
 	padding: 0 15px;
 	text-transform: uppercase;
 	font-size: 20px;
+	font-family: 'Brandon Grotesque Bold', sans-serif;
 }
 
 .name:hover {
@@ -141,6 +144,7 @@ a:hover {
 	background-color: #202124;
 	padding: 20px;
 	text-align: right;
+	font-family: 'Brandon Grotesque Bold', sans-serif;
 }
 
 .user-dropdown a {
