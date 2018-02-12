@@ -40,6 +40,15 @@ h2 {
 	color: #D82924;
 }
 
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #D82924;
+}
+
 .post-preview a, .sidebar a {
 	color: #D82924;
 }
@@ -92,7 +101,7 @@ h2 {
 }
 
 .mail {
-	padding: 10px 30px 0 0;
+	margin: 17px 30px 0 0;
 }
 
 .mail-count {
@@ -108,16 +117,36 @@ h2 {
 	cursor: pointer;
 }
 
-.user {
-	cursor: pointer;
+.dropdown .btn, .dropdown .btn:hover, .dropdown-menu {
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
 }
 
-.user:hover {
+.name {
+	padding: 0 15px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.name:hover {
 	color: #D82924;
 }
 
 .avatar {
 	padding-right: 10px;
+}
+
+.user-dropdown {
+	background-color: #202124;
+	padding: 20px;
+	text-align: right;
+}
+
+.user-dropdown a {
+	line-height: 3em;
+	text-transform: uppercase;
+	font-size: 18px;
 }
 
 .nav {
@@ -175,11 +204,16 @@ h2 {
 }
 
 .post-preview h3 {
+	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	margin: 0;
 	padding: 0;
+}
+
+.post-preview h3:hover, .post-preview-info a span:hover {
+	color: #D82924;
 }
 
 .post-hilight {
@@ -188,8 +222,16 @@ h2 {
 
 .post-preview-info span {
 	padding: 0 15px 20px 0;
-	font-face: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
+}
+
+.post-preview-info a span {
+	color: white;
+}
+
+.post-preview-info span a:hover {
+	text-decoration: underline;
 }
 
 .post-preview-info-new {
@@ -221,6 +263,14 @@ hr {
 	margin-top: 30px;
 }
 
+.sidebar .bookmarked-post-preview a {
+	color: white;
+}
+
+.sidebar .bookmarked-post-preview a:hover {
+	color: #D82924;
+}
+
 .sidebar h3 {
 	font-family: 'Brandon Grotesque Bold', sans-serif;
 	font-size: 34px;
@@ -232,6 +282,14 @@ hr {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
+}
+
+.categories a {
+	color: #c8c8c8;
+}
+
+.categories a:hover {
+	color: #D82924;
 }
 
 .category {
